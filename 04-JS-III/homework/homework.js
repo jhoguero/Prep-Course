@@ -11,7 +11,7 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  const elemento = array.pop ();
+  const elemento = array.pop();
   return elemento;
 
 }
@@ -20,6 +20,8 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  const largoarray = array.length;
+  return largoarray;
 }
 
 
@@ -28,6 +30,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  let suma = [];
+  array.forEach(element => {
+    suma.push(element + 1);
+  });
+  return suma
 }
 
 
@@ -35,6 +42,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  const finaldelarray = array.push();
+  return finaldelarray;
 }
 
 
@@ -43,6 +52,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  const agregarItem = array.unshift
+  return agregarItem;
 }
 
 
